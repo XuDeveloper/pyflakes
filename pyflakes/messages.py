@@ -99,4 +99,3 @@ class Test(Message):
     message = 'test'
     def __init__(self, filename, loc, names):
         Message.__init__(self, filename, loc)
-        self.message_args = (names,)
